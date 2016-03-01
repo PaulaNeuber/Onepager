@@ -1,5 +1,4 @@
-<nav role="navigation">
-
+<nav class="fixed-nav-bar">
   <ul class="menu cf">
     <?php foreach($pages->visible() as $p): ?>
     <li>
@@ -17,5 +16,5 @@
     </li>
     <?php endforeach ?>
   </ul>
-
 </nav>
+

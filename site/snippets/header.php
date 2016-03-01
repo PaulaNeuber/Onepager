@@ -10,12 +10,9 @@
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
   <?php echo css('assets/css/main.css') ?>
-
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,600' rel='stylesheet' type='text/css'>
 </head>
 <body>
-
   <header class="header cf" role="banner">
-  
-    </a>
     <?php snippet('menu') ?>
   </header>
