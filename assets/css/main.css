@@ -31,8 +31,6 @@ footer, header, hgroup, main, nav, section, summary {
 }
 
 
-
-
 /* Links
 -------------------------------------------------- */
 a {
@@ -63,6 +61,11 @@ html {
   -ms-text-size-adjust: 100%;
 
 }
+
+(text) {
+  opacity: 1;
+}
+
 body {
   margin: 0 auto;
   font-size: 1.25em;
@@ -75,6 +78,9 @@ body {
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
+}
+#lndm p {
+  opacity: 1;
 }
 
 
@@ -183,6 +189,7 @@ h1 {
   line-height: 1.25em;
   font-weight: 400;
   margin-bottom: .5em;
+  opacity: 1;
 }
 h2 {
   font-size: 2em;
@@ -190,12 +197,14 @@ h2 {
   font-weight: 300;
   margin-bottom: .5em;
   color: red;
+  opacity: 1;
 }
 h3 {
   font-size: 1.4em;
   line-height: 1.5em;
   font-weight: 400;
   margin-bottom: .5em;
+  opacity: 1;
 }
 h4 {
   font-size: 1.125em;
@@ -203,10 +212,12 @@ h4 {
   line-height: 1.5em;
   margin-bottom: .5em;
   color: red;
+  opacity: 1;
 }
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;
   border: 0 !important;
+  opacity: 1;
 }
 
 
@@ -310,8 +321,8 @@ h1 a, h2 a, h3 a, h4 a {
   background-color:#d7dadb;
 opacity: 0.4;
   padding:10px;
-  border-radius: 8px 8px 0px 0px;
-
+/*  border-radius: 8px 8px 0px 0px;
+*/
 }
 /* Tickets
 -------------------------------------------------- */
@@ -325,6 +336,26 @@ opacity: 0.4;
 /* Kontakt
 -------------------------------------------------- */
 #contact{
+  background-color:#d7dadb;
+opacity: 0.4;
+  padding:10px;
+/*  border-radius: 0px 0px 8px 8px;
+*/
+}
+
+/* Impressions 2015
+-------------------------------------------------- */
+#history{
+  background-color:#d7dadb;
+opacity: 0.4;
+  padding:10px;
+/*  border-radius: 0px 0px 8px 8px;
+*/
+}
+
+/* Impressum
+-------------------------------------------------- */
+#impressum{
   background-color:#d7dadb;
 opacity: 0.4;
   padding:10px;
